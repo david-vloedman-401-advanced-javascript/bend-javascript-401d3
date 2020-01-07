@@ -31,3 +31,9 @@ Explore more advanced Javascript development patterns using ES6 Classes, Inherit
 3. Context - This, bind(), call(), apply(), arrow functions, that=self=this
 4. Functional Programming
 5. Objects, Classes, and inheritance
+
+## Repl.it
+
+[This](https://repl.it/@calvincheng919/this)
+[BindCallApply](https://repl.it/@calvincheng919/BindCallApply)
+[Warmup](https://repl.it/@calvincheng919/warmup)

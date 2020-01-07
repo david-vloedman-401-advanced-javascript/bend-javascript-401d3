@@ -12,6 +12,7 @@
   "dependencies": {
     "eslint": "^6.1.0",
     "eslint-plugin-react": "^7.14.3",
+    "faker": "^4.1.0",
     "jest": "^24.8.0"
   }
 }
