@@ -4,7 +4,7 @@
 
 ## Links and Resources
 
-![Build Status]()
+[![Build Status](https://www.travis-ci.com/calvincheng-401d3/lab-00.svg?branch=master)](https://www.travis-ci.com/calvincheng-401d3/lab-00)
 * [repo](https://)
 * [travis](https://) 
 * [server](https://)
