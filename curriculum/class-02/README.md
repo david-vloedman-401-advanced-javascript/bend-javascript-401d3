@@ -22,8 +22,12 @@ Explore more advanced Javascript development patterns using ES6 Classes, Inherit
 
 ## Today's Outline
 
-<!-- To Be Completed By Instructor -->
-
-- Topic 1
-- Topic 2
-- ...
+0. Lightning Talks - Topics and Schedules
+1. Code Review - Validator
+2. Introduce Daily Warmups
+    - forloop, whileloop
+    - map(), reduce(), filter()
+    - objects
+3. Context - This, bind(), call(), apply(), arrow functions, that=self=this
+4. Functional Programming
+5. Objects, Classes, and inheritance
