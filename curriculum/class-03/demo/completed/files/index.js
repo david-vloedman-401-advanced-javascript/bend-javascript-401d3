@@ -3,7 +3,7 @@
 const fs = require('fs');
 const util = require('util')
 
-const reader = require('./lib/reader.js');
+const reader = require('./lib/reader.js.js');
 
 let file = `${__dirname}/data/file.txt`;
 
