@@ -55,7 +55,7 @@ async function readFileAsyncFromModule(file){
     let data = await reader.readerWithPromise(file);
     console.log('Async from module reader ', data);
   }
-  catch (err) { throw err}
+  catch (err) { throw err;}
 }
 
 readFileAsyncFromModule(file);
