@@ -7,14 +7,18 @@
     "lib": "lib"
   },
   "scripts": {
-    "lint": "eslint **/.js",
-    "test": "jest --coverage --verbose",
-    "test-watch": "jest --watchAll --coverage --verbose"
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "eslint": "^5.6.1",
-    "jest": "^24.8.0"
+    "fs": "0.0.1-security",
+    "jest": "^24.8.0",
+    "util": "^0.12.1"
   }
 }

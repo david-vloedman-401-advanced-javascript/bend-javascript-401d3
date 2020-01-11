@@ -25,6 +25,8 @@ Description Here
 
 <!-- To Be Completed By Instructor -->
 
-- Topic 1
-- Topic 2
-- ...
+- Warmup Code
+- Code Review
+- Intro to Data Structures and Algorithms
+- This Week's data structure: Linked List
+- Today's Topic: MongoDB and NoSQL
