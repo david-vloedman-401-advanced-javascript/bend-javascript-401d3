@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "name": "Food",
+      "id": 2
+    },
+    {
+      "name": "Tools",
+      "id": 3
+    },
+    {
+      "name": "Software",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Trucks"
+    },
+    {
+      "name": "Electronics",
+      "id": 6
+    },
+    {
+      "name": "Diapers",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "name": "TV",
+      "category": "Electronics",
+      "price": 599,
+      "id": 1
+    },
+    {
+      "name": "Apples",
+      "category": "Food",
+      "price": 9,
+      "id": 2
+    },
+    {
+      "name": "drones",
+      "category": "Tools",
+      "price": "250",
+      "id": 3
+    }
+  ]
+}
