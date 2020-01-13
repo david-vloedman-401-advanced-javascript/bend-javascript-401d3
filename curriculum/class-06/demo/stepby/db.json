@@ -1,0 +1,30 @@
+{
+  "categories": [
+    {
+      "name": "Food",
+      "id": 1
+    },
+    {
+      "name": "Electronics",
+      "id": 2
+    },
+    {
+      "name": "Bicycles",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "TV",
+      "category": "Electronics",
+      "price": 250,
+      "id": 1
+    },
+    {
+      "name": "Cabbage",
+      "category": "Food",
+      "price": 2.5,
+      "id": 2
+    }
+  ]
+}

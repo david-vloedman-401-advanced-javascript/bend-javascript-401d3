@@ -39,6 +39,12 @@
       "id": 2
     },
     {
+      "name": "Cabbage",
+      "category": "Food",
+      "price": 34,
+      "id": 4
+    },
+    {
       "name": "drones",
       "category": "Tools",
       "price": "250",
