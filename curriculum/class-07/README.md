@@ -25,6 +25,9 @@ Express Server Mechanics: Routing, Middleware, and Approaches to Testing
 
 <!-- To Be Completed By Instructor -->
 
-- Topic 1
-- Topic 2
-- ...
+1. Code Review - Swagger  
+2. Express - Basic routing, testing, build-out  
+  - Jest Spy
+  - mocking function
+  - supertest
+3. Currying example - [Simple Currying Repl.it](https://repl.it/@calvincheng919/Currying)

@@ -20,6 +20,6 @@ Express servers can quickly get big and out of control if you build them in one 
 
 <!-- To Be Completed By Instructor -->
 
-- Topic 1
-- Topic 2
-- ...
+1. Lightning Talk - Conor - Single Responsibility Principle
+2. Code Review
+3. Today's Topic - Routing and DB Connectivity
