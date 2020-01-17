@@ -23,6 +23,8 @@ In evaluating the database side of our server, one of the principle downsides to
 
 <!-- To Be Completed By Instructor -->
 
-- Topic 2
-- Topic 2
-- ...
+1. Code Review  
+2. Today's Topic  
+  - Dynamic Routing with parameterized routes  
+  - Virtual joins and Sub documents in Mongo  
+  - Swagger UI Express  
