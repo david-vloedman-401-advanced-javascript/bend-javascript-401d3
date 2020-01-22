@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login with OAuth</title>
+</head>
+<body>
+  <h1>Login With Google...</h1>
+  <div id = "buttonGoesHere"></div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    let googleURL = 'http://accounts.google.com/o/oauth2/v2/auth';
+    let options = {
+      client_id: '867850787554-fi8f426d3p685fl6pjjt6qb1h8jlv2le.apps.googleusercontent.com',
+      redirect_uri: 'http://localhost:3000/oauth',
+      scope: 'email openid profile',
+      prompt: 'consent',
+      response_type: 'code',
+    }
+    let queryString = Object.keys(options).map( (key,i) => {
+      return `${key}=` + encodeURIComponent(options[key]);
+    }).join('&');
+
+    let authURL = `${googleURL}?${queryString}`;
+
+    $('#buttonGoesHere').append(`<a href="${authURL}">Login</a>`);
+
+
+    // http://accounts.google.com/o/oauth2/v2/auth?client_id=867850787554-fi8f426d3p685fl6pjjt6qb1h8jlv2le.apps.googleusercontent.com&redirect_url=http%3A%2F%2Flocalhost%3A3000%2Foauth&scope=email%20openid%20profile&prompt=consent&response_type=code
+
+    // https://accounts.google.com/o/oauth2/v2/auth?client_id=744634606424-7h9v8kehl8i9ind75sencuidp5se23u7.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Foauth&scope=email%20openid%20profile&prompt=consent&response_type=code
+
+  </script>
+</body>
+
+</html>
