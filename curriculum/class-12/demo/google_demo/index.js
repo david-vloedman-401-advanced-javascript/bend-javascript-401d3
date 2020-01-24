@@ -9,8 +9,8 @@ const app = express();
 app.use(express.static('./public'));
 app.use(express.json());
 
-const ID = '867850787554-fi8f426d3p685fl6pjjt6qb1h8jlv2le.apps.googleusercontent.com';
-const SECRET = 'XfSvjA_yKse_hKI4D3wBBelG';
+const ID = '';
+const SECRET = '';
 const tokenServer = 'https://www.googleapis.com/oauth2/v4/token';
 const apiServer = 'https://www.googleapis.com/oauth2/v3/userinfo/'; //this has changed from plus route
 const redirect = 'http://localhost:3000/oauth';

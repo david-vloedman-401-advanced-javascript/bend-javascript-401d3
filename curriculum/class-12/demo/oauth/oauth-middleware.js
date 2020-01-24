@@ -3,8 +3,8 @@
 const superagent = require('superagent');
 const users = require('./users.js');
 
-const CLIENT_ID = 'a26bce5aaff17bad5153' ;
-const CLIENT_SECRET = '3cf7baec796f13824478b9a2e06f62fd8fafc25f';
+const CLIENT_ID = '' ;
+const CLIENT_SECRET = '';
 const tokenServer = 'https://github.com/login/oauth/access_token';
 const apiServer = 'https://api.github.com/user';
 const redirect = 'http://localhost:3000/oauth';
